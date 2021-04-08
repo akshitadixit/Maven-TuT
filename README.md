@@ -1,2 +1,2 @@
-# Waddle
-A command line utility for online compilers
+# Maven Tutorial
+A tutorial to get started with Maven in Java
