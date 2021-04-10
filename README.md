@@ -26,10 +26,10 @@ A tutorial to get started with Maven in Java
   <li>Parallel builds − It analyzes the project dependency graph and enables you to build schedule modules in parallel. Using this, you can achieve the performance improvements of 20-50%.</li>
   <li>Better Error and Integrity Reporting − Maven improved error reporting, and it provides you with a link to the Maven wiki page where you will get full description of the error.</li></ul>
 </details>
-<details>
-  <summary>How to begin?</summary>
+
+## How to begin?
   <h4>Install JDK</h4>
-  Visit this <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">link</a> to download JDK compatible for your machine. Then test if it has been successfully installed and setup.<br/>
+  Visit this <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">link</a> to download JDK compatible for your machine. Next, set the JAVA_HOME environment variable to point to the base directory location where Java is installed on your machine. Kindly look for proper ways to set this variable according to your OS. Then append Java compiler location to System Path. Test if it has been successfully installed and setup.<br/>
   For windows, open CMD: <code>c:\> java -version</code><br/>
   For linux, open terminal: <code>$ java -version</code><br/>
   For mac, open terminal: <code>machine:~ user$ java -version</code><br/>
@@ -37,4 +37,14 @@ A tutorial to get started with Maven in Java
   <code>java version "1.7.0_60"</code><br/>
   <code>Java(TM) SE Runtime Environment (build 1.7.0_60-b19)</code><br/>
   <code>Java HotSpot(TM) 64-Bit Server VM (build 24.60-b09, mixed mode)</code><br/>
-</details>
+  <h4>Install Maven</h4>
+  First, download <a href="https://maven.apache.org/download.html">Maven</a> and follow the installation instructions. The installation of Apache Maven is a simple process of extracting the archive and adding the `bin` folder with the `mvn` command to the `PATH`.
+  <ul><li>Extract the archive in any directory</li>
+  <li>Add the `bin` directory of the created directory apache-maven-3.8.1 to the `PATH` environment variable.</li>
+  <li>After that, type the following in a terminal or in a command prompt: <code>mvn --version</code> and the result should look similar to:<br/>
+  <code>Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)</code>
+  <code>Maven home: D:\apache-maven-3.6.3\apache-maven\bin\..</code>
+  <code>Java version: 1.8.0_232, vendor: AdoptOpenJDK, runtime: C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre</code>
+  <code>Default locale: en_US, platform encoding: Cp1250</code>
+  <code>OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"</code></li></ul>
+  <h4>Understanding Archetypes</h4>
