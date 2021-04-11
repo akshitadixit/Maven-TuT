@@ -27,6 +27,46 @@ A tutorial to get started with Maven in Java
   <li>Better Error and Integrity Reporting − Maven improved error reporting, and it provides you with a link to the Maven wiki page where you will get full description of the error.</li></ul>
 </details>
 
+## Understanding Archetypes
+  Archetype is a Maven project templating toolkit. An archetype is defined as an original pattern or model from which all other things of the same kind are made. Archetype will help authors create Maven project templates for users, and provides users with the means to generate parameterized versions of those project templates.
+  <table border="1">
+<tr class="a">
+<th align="left">Archetype ArtifactIds</th>
+<th align="left">Description</th></tr>
+<tr class="b">
+<td align="left">maven-archetype-archetype</td>
+<td align="left">An archetype to generate a sample archetype project.</td></tr>
+<tr class="a">
+<td align="left">maven-archetype-j2ee-simple</td>
+<td align="left">An archetype to generate a simplifed sample J2EE application.</td></tr>
+<tr class="b">
+<td align="left">maven-archetype-mojo</td>
+<td align="left">An archetype to generate a sample a sample Maven plugin.</td></tr>
+<tr class="a">
+<td align="left">maven-archetype-plugin</td>
+<td align="left">An archetype to generate a sample Maven plugin.</td></tr>
+<tr class="b">
+<td align="left">maven-archetype-plugin-site</td>
+<td align="left">An archetype to generate a sample Maven plugin site.</td></tr>
+<tr class="a">
+<td align="left">maven-archetype-portlet</td>
+<td align="left">An archetype to generate a sample JSR-268 Portlet.</td></tr>
+<tr class="b">
+<td align="left">maven-archetype-quickstart</td>
+<td align="left">An archetype to generate a sample Maven project.</td></tr>
+<tr class="a">
+<td align="left">maven-archetype-simple</td>
+<td align="left">An archetype to generate a simple Maven project.</td></tr>
+<tr class="b">
+<td align="left">maven-archetype-site</td>
+<td align="left">An archetype to generate a sample Maven site which demonstrates some of the supported document types like APT, XDoc, and FML and demonstrates how to i18n your site.</td></tr>
+<tr class="a">
+<td align="left">maven-archetype-site-simple</td>
+<td align="left">An archetype to generate a sample Maven site.</td></tr>
+<tr class="b">
+<td align="left">maven-archetype-webapp</td>
+<td align="left">An archetype to generate a sample Maven Webapp project.</td></tr></table>
+
 ## How to begin?
   <h4>Install JDK</h4>
   Visit this <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">link</a> to download JDK compatible for your machine. Next, set the JAVA_HOME environment variable to point to the base directory location where Java is installed on your machine. Kindly look for proper ways to set this variable according to your OS. Then append Java compiler location to System Path. Test if it has been successfully installed and setup.<br/>
@@ -47,4 +87,4 @@ A tutorial to get started with Maven in Java
   <code>Java version: 1.8.0_232, vendor: AdoptOpenJDK, runtime: C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre</code>
   <code>Default locale: en_US, platform encoding: Cp1250</code>
   <code>OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"</code></li></ul>
-  <h4>Understanding Archetypes</h4>
+  
