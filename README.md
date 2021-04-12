@@ -88,3 +88,28 @@ A tutorial to get started with Maven in Java
   <code>Default locale: en_US, platform encoding: Cp1250</code>
   <code>OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"</code></li></ul>
   
+## Creating your first Maven Project
+If you have just installed Maven, it may take a while on the first run. This is because Maven is downloading the most recent artifacts (plugin jars and other files) into your local repository. You may also need to execute the command a couple of times before it succeeds. This is because the remote server may time out before your downloads are complete. However, there are ways to fix that, you will just need to stackoverflow.
+
+You will need somewhere for your project to reside, create a directory somewhere and start a shell in that directory.
+
+Run the following command in shell:<br/><code>mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false</code><br/>
+You will notice that the command created a directory with the same name given as the artifactId, cd into that directory and you will notice this project structure:<br/>
+<pre>
+my-app
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- mycompany
+    |               `-- app
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- mycompany
+                    `-- app
+                        `-- AppTest.java
+</pre>
+The <code>src/main/java</code> directory contains the project source code, the <code>src/test/java</code> directory contains the test source, and the <code>pom.xml</code> file is the project's Project Object Model, or POM.
