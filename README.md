@@ -99,10 +99,10 @@ This <a href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-a
   <ul><li>Extract the archive in any directory</li>
   <li>Add the `bin` directory of the created directory apache-maven-3.8.1 to the `PATH` environment variable.</li>
   <li>After that, type the following in a terminal or in a command prompt: <code>mvn --version</code> and the result should look similar to:<br/>
-  <code>Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)</code>
-  <code>Maven home: D:\apache-maven-3.6.3\apache-maven\bin\..</code>
-  <code>Java version: 1.8.0_232, vendor: AdoptOpenJDK, runtime: C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre</code>
-  <code>Default locale: en_US, platform encoding: Cp1250</code>
+  <code>Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)</code><br/>
+  <code>Maven home: D:\apache-maven-3.6.3\apache-maven\bin\..</code><br/>
+  <code>Java version: 1.8.0_232, vendor: AdoptOpenJDK, runtime: C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre</code><br/>
+  <code>Default locale: en_US, platform encoding: Cp1250</code><br/>
   <code>OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"</code></li></ul>
   
 ## Creating your first Maven Project
