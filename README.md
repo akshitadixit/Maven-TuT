@@ -112,4 +112,8 @@ my-app
                     `-- app
                         `-- AppTest.java
 </pre>
-The <code>src/main/java</code> directory contains the project source code, the <code>src/test/java</code> directory contains the test source, and the <code>pom.xml</code> file is the project's Project Object Model, or POM.
+The <code>src/main/java</code> directory contains the project source code, the <code>src/test/java</code> directory contains the test source, and the <code>pom.xml</code> file is the project's Project Object Model, or POM.<br/>
+We just executed the Maven goal `archetype:generate`, and passed in various parameters to that goal. The prefix `archetype` is the plugin that provides the goal. This `archetype:generate` goal created a simple project based upon a `maven-archetype-quickstart` archetype. <br/>
+A plugin is a collection of goals with a general common purpose, and that will be all we need to know for now. Another thing that we need not know in detail about is the `POM.xml` file. This is the core of a project's configuration in Maven. It is a single configuration file that contains the majority of information required to build a project in just the way you want. The POM is huge and can be daunting in its complexity, but it is not necessary to understand all of the intricacies just yet to use it effectively.<br/>
+
+## Build and Run
