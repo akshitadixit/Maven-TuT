@@ -16,6 +16,8 @@ Some of the largest corporations that use Maven include:
 * KRG TECHNOLOGIES
 * Radio - Canada
 
+This <a href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Learn-Maven-and-master-the-build-tools-fundamental-concepts">article</a> talks about why learning Maven could be important for DevOps and beyond just building simple local projects.
+
 ## All about it
 <details>
   <summary>What is Maven?</summary>
