@@ -1,5 +1,20 @@
 # Maven Tutorial
-A tutorial to get started with Maven in Java
+All applications, no matter how small or large, must undergo a specific process. These processes can be configured manually, but this becomes a burden. 
+
+To solve this issue, we have Maven, which automates the entire process. This tutorial will help give you a clearer picture of what Maven is, the advantages of using it and setting it up.
+
+## Industry picture
+Even though now Gradle, another build tool written in groovy, is capturing some ground of Maven, it is still the most popular build tool for Java projects. Gradle will take its time because it has a little bit of learning curve in terms of the Groovy and domain-specific language you use to write the build script but given Maven uses XML, anybody can understand the build process and build dependencies.<br/>
+Some of the largest corporations that use Maven include:
+
+* Accenture
+* JPMorgan Chase & Co
+* Via Varejo 
+* craft base
+* Red Hat 
+* Mitratech Holdings, Inc.
+* KRG TECHNOLOGIES
+* Radio - Canada
 
 ## All about it
 <details>
