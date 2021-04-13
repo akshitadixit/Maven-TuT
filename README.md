@@ -117,3 +117,26 @@ We just executed the Maven goal `archetype:generate`, and passed in various para
 A plugin is a collection of goals with a general common purpose, and that will be all we need to know for now. Another thing that we need not know in detail about is the `POM.xml` file. This is the core of a project's configuration in Maven. It is a single configuration file that contains the majority of information required to build a project in just the way you want. The POM is huge and can be daunting in its complexity, but it is not necessary to understand all of the intricacies just yet to use it effectively.<br/>
 
 ## Build and Run
+
+Run `mvn package` to build the packages. You may test the newly compiled and packaged JAR with the following command:<br/>
+<pre>java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App</pre>
+Which will print the following:
+<pre>Hello World!</pre>
+
+**Note: The build and run will vary for various archetypes, this one is for demo purposes only**
+
+## Maven Tools
+
+When you get even more familiar with Maven, you might begin to use some or all of these tools gradually, here's a list and what they do:
+| Tool | Use |
+|------|--------|
+| validate|  validate the project is correct and all necessary information is available |
+| compile|  compile the source code of the project |
+| test|  test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed |
+| package|  take the compiled code and package it in its distributable format, such as a JAR. |
+| integration-test|  process and deploy the package if necessary into an environment where integration tests can be run |
+| verify|  run any checks to verify the package is valid and meets quality criteria |
+| install|  install the package into the local repository, for use as a dependency in other projects locally |
+| deploy|  done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
+| clean|  cleans up artifacts created by prior builds |
+| site|  generates site documentation for this project |
