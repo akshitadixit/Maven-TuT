@@ -1,9 +1,10 @@
+<center><img src="https://maven.apache.org/images/maven-logo-black-on-white.png"></center>
 # Maven Tutorial
 All applications, no matter how small or large, must undergo a specific process. These processes can be configured manually, but this becomes a burden. 
 
 To solve this issue, we have Maven, which automates the entire process. This tutorial will help give you a clearer picture of what Maven is, the advantages of using it and setting it up.
 
-<centre><img src="https://img.shields.io/maven-central/v/org.apache.maven/apache-maven?style=plastic"></centre>
+<center><img src="https://img.shields.io/maven-central/v/org.apache.maven/apache-maven?style=plastic"></center>
 
 ## Industry picture
 Even though now Gradle, another build tool written in groovy, is capturing some ground of Maven, it is still the most popular build tool for Java projects. Gradle will take its time because it has a little bit of learning curve in terms of the Groovy and domain-specific language you use to write the build script but given Maven uses XML, anybody can understand the build process and build dependencies.<br/>
